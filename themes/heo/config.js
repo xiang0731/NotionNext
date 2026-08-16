@@ -4,6 +4,22 @@ const CONFIG = {
 
   HEO_HOME_BANNER_ENABLE: true,
 
+  HEO_INFO_CARD_AVATAR_BLUR: true, // 文章详情页个人资料卡头像样式。true：显示为模糊装饰头像；false：与首页头像保持一致
+
+  HEO_COLOR_PRIMARY: '#4f65f0',
+  HEO_COLOR_PRIMARY_HOVER: '#4f46e5',
+  HEO_COLOR_PRIMARY_TEXT: '#ffffff',
+  HEO_COLOR_ACCENT: '#dca846',
+  HEO_COLOR_BG: '#f7f9fe',
+  HEO_COLOR_BG_DARK: '#18171d',
+  HEO_COLOR_CARD: '#ffffff',
+  HEO_COLOR_CARD_DARK: '#1e1e1e',
+  HEO_COLOR_CARD_MUTED: '#f1f3f8',
+  HEO_COLOR_BORDER: '#4f46e5',
+  HEO_COLOR_BORDER_DARK: '#dca846',
+  HEO_COLOR_TEXT: '#111827',
+  HEO_COLOR_TEXT_SECONDARY: '#4b5563',
+
   HEO_SITE_CREATE_TIME: '2021-09-21', // 建站日期，用于计算网站运行的第几天
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
@@ -56,6 +72,7 @@ const CONFIG = {
   HEO_INFO_CARD_ICON1: 'fas fa-user', // 17改动，复制粘贴。
   HEO_INFO_CARD_URL2: 'https://github.com/xiang0731', // 17改动，复制粘贴。
   HEO_INFO_CARD_ICON2: 'fab fa-github', // 17改动，复制粘贴。
+  HEO_INFO_CARD_ICON_ORCID: 'fab fa-orcid',
   HEO_INFO_CARD_URL3: 'https://www.wow17.com', // 17改动，复制粘贴。
   HEO_INFO_CARD_TEXT3: '了解更多', // 17改动，复制粘贴。
 
@@ -124,7 +141,7 @@ const CONFIG = {
   HEO_SOCIAL_CARD_TITLE_2: '欢迎留下你的意见', // 17改动，复制粘贴。
   HEO_SOCIAL_CARD_TITLE_3: '点击留言', // 17改动，复制粘贴。
   HEO_SOCIAL_CARD_URL: 'https://wow17.com/advise', // 17改动，复制粘贴。
-  
+
   // 底部统计面板文案
   HEO_POST_COUNT_TITLE: '文章数:',
   HEO_SITE_TIME_TITLE: '建站天数:',
